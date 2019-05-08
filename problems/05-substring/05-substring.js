@@ -5,7 +5,7 @@ If incorrect input is entered, throw an exception stating the input was incorrec
 For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
 
-    if (someStr ==="" || startIndex === "") {
+    if (someStr === "" || startIndex === "" || endIndex === "") {
         throw "Incorrect input, please input a string";
     } 
 
