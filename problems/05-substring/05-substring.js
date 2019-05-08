@@ -5,6 +5,10 @@ If incorrect input is entered, throw an exception stating the input was incorrec
 For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
 
+    if (someStr ==="" || startIndex === "") {
+        throw "Incorrect input, please input a string";
+    } 
+
     let newString = new String();
     someStr =  someStr.split("");
     newString = newString.split("");
@@ -12,7 +16,8 @@ function substring(someStr, startIndex, endIndex) {
        newString[j++] = someStr[i];
     }
     return newString;
+
     
 }
 
-console.log(substring("Hello worked", 1, 4));
+console.log(substring("", 1, 4));
