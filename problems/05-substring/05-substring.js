@@ -5,4 +5,14 @@ If incorrect input is entered, throw an exception stating the input was incorrec
 For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
 
+    let newString = new String();
+    someStr =  someStr.split("");
+    newString = newString.split("");
+    for (let i = startIndex, j = 0; i < endIndex; i++) {
+       newString[j++] = someStr[i];
+    }
+    return newString;
+    
 }
+
+console.log(substring("Hello worked", 1, 4));
