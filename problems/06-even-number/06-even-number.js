@@ -7,4 +7,5 @@ function isEven(someNum) {
   
 }
 
+//Test
 console.log(isEven(7));

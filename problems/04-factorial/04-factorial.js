@@ -8,4 +8,5 @@ function factorial(sumNum) {
   
 }
 
+//Test
 console.log(factorial(5));

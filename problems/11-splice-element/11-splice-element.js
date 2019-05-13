@@ -15,7 +15,7 @@ function spliceElement(someArr, index) {
  
 }
 
-
+//Test
 let someArr = new Array;
 someArr[0] = "1";
 someArr[1] = "2";

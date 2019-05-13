@@ -20,4 +20,5 @@ function substring(someStr, startIndex, endIndex) {
     
 }
 
-console.log(substring("", 1, 4));
+//Test
+console.log(substring("hello", 0, 3));

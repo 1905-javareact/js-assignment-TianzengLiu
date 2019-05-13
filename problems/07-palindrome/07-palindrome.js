@@ -6,4 +6,5 @@ function isPalindrome(someStr) {
   
 }
 
+//Test
 console.log(isPalindrome('ama, ama'));

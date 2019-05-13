@@ -9,3 +9,7 @@ function reverseStr(someStr) {
     return result;
   
 }
+
+//Test
+
+console.log(reverseStr("Tony"))

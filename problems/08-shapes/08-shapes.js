@@ -71,6 +71,7 @@ function printShape(shape, height, character) {
 
 }
 
+//Test
 printShape("Square", 3, "%");
 printShape("Triangle", 3, "$");
 printShape("Diamond", 5, "*");
